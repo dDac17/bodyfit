@@ -5,6 +5,8 @@ h2 {
 .main {
     display: flex;
     justify-content: center;
+    background-image: url(../assets/bg.jpg);
+    background-repeat: repeat;
     
 }
 .fade {
