@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 690px;
+    background-image: url(../assets/header.png);
+    flex: 1;
+    background-size: cover;
+    position: static;
+    background-position: center;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section1 {
+    display: flex;
+    height: 400px;
+    background-color: aqua;
+
+}
+#section2 {
+    display: flex;
+    height: 400px;
+    background-color: red;
+
+}
+#section3 {
+    display: flex;
+    height: 400px;
+    background-color: rgb(191, 240, 43);
+
+}
+
+.testimonio-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo img {
+    max-height: 50px;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
