@@ -29,10 +29,12 @@
     border: 1px solid black;
     border-radius: 2%;
     margin-bottom: 40px;
+    
 }
 
 
 form {
+    display: flex;
     background-color: white;
     width: 300px;
     border: 1px solid black;
@@ -51,7 +53,26 @@ form {
 
 .imagen-promocion {
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
+.mapa {
+    margin-left: 25px;
+    margin-top: 20px;    
+}
+
+p {
+    margin: 20px ;
+}
+
+.input {
+    margin-top: 10px;
+    margin-left: 20px;
+}
     
 
+textarea {
+    margin-top: 10px;
+    margin-left: 20px;
+
+}

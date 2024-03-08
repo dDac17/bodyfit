@@ -5,10 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="../style/main.css">
     <title>Contacto</title>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="" alt="Logo de bodyfit">
+            </div>
+            <ul>
+                <a href="../index.html">Inicio</a>
+                <a href="../about-us/about-us.html">Sobre Nosotros</a>
+                <a href="../contact/contact.html">Contacto</a>
+                <a href="../shop/shop.html">Tienda</a>
+            </ul>
+        </nav>
+    </header>
     <div class="main-container">
       
          <div class="Text-Contact">
@@ -19,27 +33,49 @@
         
             <div id="contacto">
                 <p id="direccion"> Bodyfit, SL. Calle Luis Doreste Silva, Nº 85. Las Palmas de Gran Canaria, 35004, Las Palmas.</p>
-                <div><img src="imagen mapa" alt="mapa"></div>
+                <div><img class="mapa" src="./Mapa-Contacto.png" alt="mapa" width="250 px" height="250px"></div>
             </div>
 
             <form>
-                <div id="formulario">Formulario
-                Nombre<input type="text"><br>
-                Apellidos<input type="text"><br>
-                Fecha de nacimiento<input type="date"><br>
-                Email <input type="email"><br>
-                Teléfono de contacto <input type="text"><br>
-                Comentario <input type="text">
+                <div id="formulario">
+                <div class="input">
+                Nombre <br>
+                <input type="text"></div>
+                <div class="input">Apellidos <br>
+                <input type="text"></div>
+                <div class="input">Fecha de nacimiento <br>
+                <input type="date"></div>
+                <div class="input">Email <br>
+                <input type="email"></div>
+                <div class="input">Teléfono de contacto <br>
+                <input type="text"><br></div>                
+                <textarea id="comentario" name="comentario" rows="5" cols="33">Comentario</textarea>                            
                 </div>
             </form>
 
          </div>
         
           <div id="promocion">
-            <img class="imagen-promocion" src="/contact/imagen.promocion.jpg" alt="promo">
+            <img class="imagen-promocion" src="/contact/Fotos_del_centro_2.jpg" alt="promo" width="1000px">
           </div>
     </div>
+    <footer>
+        <div class="footer-sections">
+            <div class="footer-section">
+                <h5><a href="#faq">Preguntas Frecuentes</a></h5>
+            </div>
     
+            <div class="footer-section">
+                <h5><a href="#privacy-policy">Política de Privacidad</a></h5>
+            </div>
+    
+            <div class="footer-section">
+                <h5><a href="#legal-notice">Aviso Legal</a></h5>
+            </div>
+        </div>
+    
+        <p>&copy; 2024 Bodyfit. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 
