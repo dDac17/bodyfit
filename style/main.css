@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    height: 690px;
+    height: 600px;
     background-image: url(../assets/header.png);
     flex: 1;
     background-size: cover;
@@ -16,25 +16,65 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
 }
 
 #section1 {
+    height: 600px;
+    display: flex;
+    background-color: aqua;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#foto1{
     display: flex;
     height: 400px;
-    background-color: aqua;
-
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 40px;
 }
+
+#texto1{
+    display: flex;
+    position: relative;
+    width: 400px;
+    padding-left: 400px;
+    padding-top: 100px;
+}
+
 #section2 {
     display: flex;
-    height: 400px;
+    height: 600px;
     background-color: red;
-
+    margin-bottom: 20px;
 }
-#section3 {
+
+#foto2{
     display: flex;
     height: 400px;
-    background-color: rgb(191, 240, 43);
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 750px;
+}
 
+#texto2 {
+    display: flex;
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 90px;
+}
+
+
+#section3 {
+    display: flex;
+    height: 600px;
+    background-color: rgb(191, 240, 43);
+    margin-bottom: 20px;
 }
 
 .testimonio-images{
