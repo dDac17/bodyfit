@@ -5,7 +5,7 @@ h2 {
 .main {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:  center;
     background-image: url(../assets/bg.jpg);
     background-repeat: repeat;
 
@@ -18,16 +18,14 @@ h2 {
     height: 78vh;
     height: 100vh;
     text-align: center;
-    align-self: self-end;
+    align-content: end;
     color: azure;
 }
 
 .cards {
     width: 100%;
     display: flex;
-    display: -webkit-flex;
     justify-content: center;
-    -webkit-justify-content: center;
     max-width: 100%;
 }
 
@@ -111,11 +109,6 @@ h2 {
     color: #868686
 }
 
-.card__by {
-    font-size: 12px;
-    font-weight: 700
-}
-
 .card__author {
     font-weight: 700;
     text-decoration: none;
@@ -132,7 +125,4 @@ h2 {
     position: relative !important
 }
 
-.card:hover .card__info-hover {
-    opacity: 1 !important
-}
 
