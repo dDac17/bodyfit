@@ -18,6 +18,7 @@ header {
     align-items: center;
     margin-bottom: 20px;
 }
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -31,7 +32,7 @@ header {
     justify-content: space-between;
 }
 
-#foto1{
+#foto1 {
     display: flex;
     height: 400px;
     width: 400px;
@@ -39,7 +40,7 @@ header {
     padding-left: 40px;
 }
 
-#texto1{
+#texto1 {
     display: flex;
     position: relative;
     width: 400px;
@@ -54,7 +55,7 @@ header {
     margin-bottom: 20px;
 }
 
-#foto2{
+#foto2 {
     display: flex;
     height: 400px;
     width: 400px;
@@ -77,7 +78,7 @@ header {
     margin-bottom: 20px;
 }
 
-.testimonio-images{
+.testimonio-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,10 +115,20 @@ nav a {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px;
     bottom: 0;
     width: 100%;
+    font-weight: 700;
+    color: #b3b2b1;
+}
+footer a {
+    text-decoration: none;
+    color: #b3b2b1;
+}
+.footer-img {
+    scale: 0.5;
 }
