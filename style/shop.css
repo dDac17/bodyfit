@@ -20,6 +20,7 @@ h2 {
     text-align: center;
     align-content: end;
     color: azure;
+    border: 8px solid #868686;
 }
 
 .cards {
@@ -109,11 +110,7 @@ h2 {
     color: #868686
 }
 
-.card__author {
-    font-weight: 700;
-    text-decoration: none;
-    color: #AD7D52
-}
+
 
 .card:hover .card__img--hover {
     height: 100% !important;
