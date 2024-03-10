@@ -12,19 +12,20 @@ h2 {
 }
 
 .sidebar {
-    background-color: rgba(30, 75, 133, 0.85);
     width: 25%;
     min-width: 400px;
     height: 78vh;
-    height: 100vh;
+    height: 70vh;
     text-align: center;
     align-content: end;
-    color: azure;
-    border: 8px solid #868686;
+    color: rgb(69, 70, 70);
+    border-radius: 12px;
+    border: 1px solid #8b8a8a;
+    box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1)
 }
 
 .cards {
-    width: 100%;
+   
     display: flex;
     justify-content: center;
     max-width: 100%;
@@ -58,7 +59,7 @@ h2 {
 }
 
 .card__info-hover {
-    position: absolute;
+  
     padding: 16px;
     width: 100%;
     opacity: 0;
