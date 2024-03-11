@@ -5,10 +5,10 @@ h2 {
 .main {
     width: 100vw;
     display: flex;
-    justify-content:  center;
+    justify-content: center;
     background-image: url(../assets/bg.jpg);
     background-repeat: repeat;
-
+    box-sizing: border-box
 }
 
 .sidebar {
@@ -58,7 +58,7 @@ h2 {
 }
 
 .card__info-hover {
-  
+
     padding: 16px;
     width: 100%;
     opacity: 0;
@@ -120,5 +120,3 @@ h2 {
     background-color: transparent !important;
     position: relative !important
 }
-
-
