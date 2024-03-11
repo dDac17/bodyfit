@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    height: 570px;
+    height: 380px;
     width: 100vw;
     background-image: url(../assets/header.png);
     background-size: cover;
