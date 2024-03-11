@@ -1,15 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
+    background-image: url(../assets/bg.jpg);
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
 
 header {
-    height: 600px;
+    height: 570px;
+    width: 100vw;
     background-image: url(../assets/header.png);
-    flex: 1;
     background-size: cover;
-    position: static;
     background-position: center;
     color: white;
     padding: 40px;
@@ -26,8 +27,8 @@ header {
 
 #section1 {
     height: 600px;
+    width: 100vw;
     display: flex;
-    background-color: aqua;
     margin-bottom: 20px;
     justify-content: space-between;
 }
@@ -38,6 +39,7 @@ header {
     width: 400px;
     padding-top: 40px;
     padding-left: 40px;
+    
 }
 
 #texto1 {
@@ -47,12 +49,16 @@ header {
     padding-left: 400px;
     padding-top: 100px;
 }
+div img {
+    border-radius: 19px;
+    border-color: black;
+}
 
 #section2 {
     display: flex;
     height: 600px;
-    background-color: red;
     margin-bottom: 20px;
+    width: 100vw;
 }
 
 #foto2 {
@@ -74,8 +80,8 @@ header {
 #section3 {
     display: flex;
     height: 600px;
-    background-color: rgb(191, 240, 43);
     margin-bottom: 20px;
+    width: 100vw;
 }
 
 .testimonio-images {
@@ -88,6 +94,7 @@ header {
 #logo img {
     max-height: 50px;
     display: flex;
+    
 }
 
 .navbar {
@@ -99,6 +106,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0px;
+    margin-left: 1rem;
 }
 
 nav ul {
@@ -106,6 +114,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 2rem;
 }
 
 nav a {
