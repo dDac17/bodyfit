@@ -29,7 +29,6 @@ header {
     height: 600px;
     width: 100vw;
     display: flex;
-    margin-bottom: 20px;
     justify-content: space-between;
 }
 
@@ -57,7 +56,6 @@ div img {
 #section2 {
     display: flex;
     height: 600px;
-    margin-bottom: 20px;
     width: 100vw;
 }
 
@@ -80,7 +78,6 @@ div img {
 #section3 {
     display: flex;
     height: 600px;
-    margin-bottom: 20px;
     width: 100vw;
 }
 
