@@ -68,7 +68,7 @@ h2 {
     border-top-right-radius: 12px
 }
 
-.card__info-hover {
+.product-price-hover {
     padding: 16px;
     width: 100%;
     opacity: 0;
@@ -103,7 +103,7 @@ h2 {
     transform: scale(1.10, 1.10) !important
 }
 
-.card__info {
+.product-price {
     z-index: 2;
     background-color: #fff;
     border-bottom-left-radius: 12px;
@@ -114,7 +114,7 @@ h2 {
     text-align: center;
 }
 
-.card__category {
+.product-title {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
@@ -130,7 +130,7 @@ h2 {
     opacity: .3 !important
 }
 
-.card:hover .card__info {
+.card:hover .product-price {
     background-color: transparent !important;
     position: relative !important
 }
