@@ -5,8 +5,7 @@ h2 {
 .main {
     width: 100vw;
     display: flex;
-    justify-content: center;
-    background-image: url(../assets/bg.jpg);
+    justify-content: center;  
     background-repeat: repeat;
     box-sizing: border-box
 }
@@ -15,7 +14,6 @@ h2 {
     width: 25%;
     min-width: 400px;
     height: 78vh;
-    height: 70vh;
     text-align: center;
     align-self: flex-end;
     color: rgb(69, 70, 70);
@@ -28,6 +26,7 @@ h2 {
     display: flex;
     justify-content: center;
     max-width: 100%;
+    margin-bottom: 30px;
 }
 
 .card--1 .card__img,
@@ -45,7 +44,19 @@ h2 {
     background-image: url(../assets/Foto_para_entrenamiento_personal.jpeg)
 }
 
+.card--4 .card__img,
+.card--4 .card__img--hover {
+    background-image: url(../assets/Foto_para_entrenamiento_personal.jpeg)
+}
+.card--5 .card__img,
+.card--5 .card__img--hover {
+    background-image: url(../assets/Foto_para_entrenamiento_personal.jpeg)
+}
 
+.card--6 .card__img,
+.card--6 .card__img--hover {
+    background-image: url(../assets/Foto_para_entrenamiento_personal.jpeg)
+}
 .card__img {
     visibility: hidden;
     background-size: cover;
@@ -58,7 +69,6 @@ h2 {
 }
 
 .card__info-hover {
-
     padding: 16px;
     width: 100%;
     opacity: 0;
