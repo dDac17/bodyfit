@@ -2,12 +2,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
 
 header {
     height: 600px;
+    width: 100vw;
     background-image: url(../assets/header.png);
-    flex: 1;
     background-size: cover;
     position: static;
     background-position: center;
@@ -25,6 +26,7 @@ header {
 
 #section1 {
     height: 600px;
+    width: 100vw;
     display: flex;
     background-color: aqua;
     margin-bottom: 20px;
@@ -52,6 +54,7 @@ header {
     height: 600px;
     background-color: red;
     margin-bottom: 20px;
+    width: 100vw;
 }
 
 #foto2{
@@ -75,6 +78,7 @@ header {
     height: 600px;
     background-color: rgb(191, 240, 43);
     margin-bottom: 20px;
+    width: 100vw;
 }
 
 .testimonio-images{
