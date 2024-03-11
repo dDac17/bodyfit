@@ -1,22 +1,31 @@
 
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
 .main-container {
     height: 100vh;
     width: 100vw;
+<<<<<<< HEAD
     
+=======
+    background-color: rgb(172, 166, 166);
+>>>>>>> da012db02110bce7a5f8119f0d005b89e7149bdd
 }
 
 
 .Text-Contact {
     display: flex;
     justify-content: center;
-    color: red;
+    color: black;
 }
 
 
 .main-informacion {
     display: flex;
     flex-direction: row;
-    padding-top: 60px ;
+    padding-top: 80px ;
     justify-content: space-evenly;
     width: 100%;
     height: 70%;
@@ -31,24 +40,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     background-color: gray;
+=======
+    background-color: rgb(160, 153, 153);
+>>>>>>> da012db02110bce7a5f8119f0d005b89e7149bdd
     width: 400px;
-    border: 2px solid black;
+    border: 2px solid rgb(128, 123, 123);
     border-radius: 2%;
-    border-image: 1px;
+    border-image: 1px solid black;
+    margin-bottom: 40px;
+    height: 500px;
     
 }
 
+#correcion-electronico {
+    margin-top: 10px;
+    display: flex;
+}
 
 form {
     
-    background-color: gray;
+    background-color: rgb(160, 153, 153);
     width: 400px;
-    border: 2px solid black;
+    border: rgb(128, 123, 123);
     border-radius: 2%;
     margin-bottom: 40px;
+    height: 500px;
 }
 
+<<<<<<< HEAD
 #promocion {
     display: flex;
     justify-content: center;
@@ -60,6 +81,8 @@ form {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+=======
+>>>>>>> da012db02110bce7a5f8119f0d005b89e7149bdd
 
 .mapa { 
     margin-left: 20x;
@@ -80,5 +103,17 @@ textarea {
     margin-top: 10px;
     margin-left: 20px;
 
+}
+
+.check {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+button {
+    margin-top: 20px;
+    margin-left: 150px;
+    
 }
 
