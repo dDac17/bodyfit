@@ -120,3 +120,7 @@ h2 {
     background-color: transparent !important;
     position: relative !important
 }
+
+button {
+    cursor: pointer;
+}

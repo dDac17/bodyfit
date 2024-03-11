@@ -134,6 +134,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #b3b2b1;
+    display: flex;
 }
 .footer-img {
     scale: 0.5;
