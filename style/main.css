@@ -1,9 +1,7 @@
 
 
 #section1 {
-    
     display: flex;
-    
     height: 600px;
     width: 80%;
     padding-left: 50px;
@@ -14,8 +12,8 @@
     display: flex;
     height: 400px;
     width: 300px;
-    padding-top: 40px;
-    padding-left: 170px;
+    padding-top: 20px;
+    padding-left: 400px;
     background-image: url(../assets/foto1.jpeg);
     background-size: cover;
     background-position: center;
@@ -32,30 +30,34 @@
     line-height: 25px;
     width: 600px;
     height: 440px;
-    margin-left: 50px;
-    
+    margin-left: 150px;
     padding-top: 40px;
 
 }
 
-div img {
-    border-radius: 19px;
-    border-color: black;
-}
+
 
 #section2 {
     display: flex;
-    
     height: 600px;
-    width: 100vw;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 50px;
+
 }
 
 #foto2 {
     display: flex;
     height: 400px;
-    width: 400px;
+    width: 300px;
     padding-top: 40px;
-    padding-left: 100px;
+    padding-left: 170px;
+    background-image: url(../assets/foto2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 19px;
+    border-color: black;
+    margin: 100px;
 }
 
 #texto2 {
@@ -71,15 +73,11 @@ div img {
 #section3 {
     display: flex;
     height: 500px;
-    width: 100vw;
+    width: 100%;
     background-color: aquamarine;
 }
 
-.testimonio-images {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 
 
