@@ -48,6 +48,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 updateCart()
             })
         })
+    /*
+        const totalAmountElement = document.getElementById('totalAmount')
+        totalAmountElement.textContent = `${total.toFixed(2)}€`
+        */
     }
 
     addButtons.forEach((button, index) => {
