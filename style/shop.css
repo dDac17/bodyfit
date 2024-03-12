@@ -11,6 +11,8 @@ h2 {
 }
 
 .sidebar {
+    margin-bottom: 100px;
+    margin-left: 30px;
     width: 25%;
     min-width: 400px;
     height: 78vh;
@@ -133,4 +135,13 @@ h2 {
 .card:hover .product-price {
     background-color: transparent !important;
     position: relative !important
+}
+
+button {
+    cursor: pointer;
+}
+span {
+    display: flex;
+    align-items: center;
+   
 }

@@ -61,6 +61,17 @@ form {
     height: 500px;
 }
 
+#promocion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.imagen-promocion {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
 .mapa { 
     margin-left: 20x;
