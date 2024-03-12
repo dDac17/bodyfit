@@ -13,10 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
             cartItem.innerHTML = `
                 <span class = "product-title">${item.title}</span>
                 <span class = "product-price">${item.price} €/Mes</span>
-                <button class="remove-from-cart" data-index="${index}">Quitar</button>
-            `;
+                <button class="remove-from-cart" data-index="${index}">Quitar</button>`
             carrito.appendChild(cartItem)
-        });
+        })
 
         const total = cart.reduce((acc, item) => acc + item.price, 0)
         const totalElement = document.createElement('div')
@@ -24,11 +23,20 @@ document.addEventListener('DOMContentLoaded', function () {
         totalElement.textContent = `Total: ${total.toFixed(2)}€`
         carrito.appendChild(totalElement)
 
-        //boton finalizar compra
+        
         const btnFinalizar = document.createElement('button')
         btnFinalizar.classList.add('btn-finalizar')
         btnFinalizar.textContent = 'Finalizar compra'
         carrito.appendChild(btnFinalizar)
+
+     btnFinalizar.addEventListener('click', function () {
+        if (cart.length > 0) {
+          alert('¡Compra finalizada con éxito!')
+        window.location.href = '../index.html'
+       } else {
+         alert('Añade productos antes de finalizar la compra.')
+       }
+      })
 
 
 
