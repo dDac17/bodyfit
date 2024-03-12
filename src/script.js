@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const cartItem = document.createElement('div')
             cartItem.classList.add('cart-item')
             cartItem.innerHTML = `
-                <span>${item.title}</span>
-                <span>${item.price}</span>
+                <span class = "product-title">${item.title}</span>
+                <span class = "product-price">${item.price} €/Mes</span>
                 <button class="remove-from-cart" data-index="${index}">Quitar</button>
             `;
             carrito.appendChild(cartItem)
