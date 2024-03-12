@@ -18,6 +18,11 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    color: rgba(219, 47, 16, 0.973);
+    padding: 5px;
+     
+
+    
 }
 
 .container {
@@ -26,10 +31,11 @@ header {
 }
 
 #section1 {
-    height: 600px;
-    width: 100vw;
+
     display: flex;
     justify-content: space-between;
+    height: 600px;
+    width: 100vw;
 }
 
 #foto1 {
@@ -37,17 +43,18 @@ header {
     height: 400px;
     width: 400px;
     padding-top: 40px;
-    padding-left: 40px;
-    
+    padding-left: 170px;   
 }
 
 #texto1 {
+    text-align: justify;
     display: flex;
     position: relative;
-    width: 400px;
+    width: 700px;
     padding-left: 400px;
     padding-top: 100px;
 }
+
 div img {
     border-radius: 19px;
     border-color: black;
@@ -55,6 +62,7 @@ div img {
 
 #section2 {
     display: flex;
+    justify-content: space-between;
     height: 600px;
     width: 100vw;
 }
@@ -64,12 +72,13 @@ div img {
     height: 400px;
     width: 400px;
     padding-top: 40px;
-    padding-left: 750px;
+    padding-left: 300px;
 }
 
 #texto2 {
+    text-align: justify;
     display: flex;
-    width: 400px;
+    width: 600px;
     padding-top: 100px;
     padding-left: 90px;
 }
@@ -79,6 +88,7 @@ div img {
     display: flex;
     height: 600px;
     width: 100vw;
+    background-color: aquamarine;
 }
 
 .testimonio-images {
@@ -112,12 +122,20 @@ nav ul {
     align-items: center;
     justify-content: space-between;
     margin-right: 2rem;
+    font-size: 20px;
+    
+}
+
+span {
+    text-decoration: underline;
+
 }
 
 nav a {
     text-decoration: none;
-    color: white;
-    padding: 10px;
+    color: rgba(219, 47, 16, 0.973);
+    padding: 5px;
+    
 }
 
 footer {
@@ -137,5 +155,28 @@ footer a {
     display: flex;
 }
 .footer-img {
-    scale: 0.4;
+    scale: 0.5;
+}
+
+
+
+#seccion3-1{
+ 
+   
+
+}
+
+#seccion3-2 {
+   
+
+}
+
+#seccion3-3 {
+    
+
+}
+
+#seccion3-4 {
+    
+
 }
