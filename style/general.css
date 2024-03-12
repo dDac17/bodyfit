@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    
 }
 
 header {
@@ -61,22 +62,31 @@ nav a {
 
 footer {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: #333;
     text-align: center;
-    padding: 10px;
+    flex-direction: column;
     bottom: 0;
     width: 100%;
-    font-weight: 700;
+    font-weight: 400;
     color: #b3b2b1;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer a {
     text-decoration: none;
     color: #b3b2b1;
     display: flex;
+    line-height: 25px;
+   
 }
 
 .footer-img {
-    scale: 0.5;
+   padding-top: 10px;
+}
+
+footer a:hover {
+    scale: 1.2;
+    color: #ffffff;
 }
