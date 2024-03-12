@@ -23,34 +23,42 @@ header {
        
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
 #section1 {
-
+    
     display: flex;
-    justify-content: space-between;
+    
     height: 600px;
-    width: 100vw;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 #foto1 {
     display: flex;
     height: 400px;
-    width: 400px;
+    width: 300px;
     padding-top: 40px;
-    padding-left: 170px;   
+    padding-left: 170px;
+    background-image: url(../assets/foto1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 19px;
+    border-color: black;
+        
 }
 
 #texto1 {
-    text-align: justify;
+    text-align: center;
     display: flex;
     position: relative;
-    width: 700px;
-    padding-left: 400px;
-    padding-top: 100px;
+    border-radius: 1px  black;
+    line-height: 25px;
+    width: 600px;
+    height: 440px;
+    margin-left: 50px;
+    
+    padding-top: 40px;
+
 }
 
 div img {
@@ -60,7 +68,7 @@ div img {
 
 #section2 {
     display: flex;
-    justify-content: space-between;
+    
     height: 600px;
     width: 100vw;
 }
@@ -70,13 +78,14 @@ div img {
     height: 400px;
     width: 400px;
     padding-top: 40px;
-    padding-left: 300px;
+    padding-left: 100px;
 }
 
 #texto2 {
     text-align: justify;
+    line-height: 25px;
     display: flex;
-    width: 600px;
+    width: 400px;
     padding-top: 100px;
     padding-left: 90px;
 }
@@ -84,7 +93,7 @@ div img {
 
 #section3 {
     display: flex;
-    height: 600px;
+    height: 500px;
     width: 100vw;
     background-color: aquamarine;
 }
