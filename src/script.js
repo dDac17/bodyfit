@@ -24,6 +24,14 @@ document.addEventListener('DOMContentLoaded', function () {
         totalElement.textContent = `Total: ${total.toFixed(2)}€`
         carrito.appendChild(totalElement)
 
+        //boton finalizar compra
+        const btnFinalizar = document.createElement('button')
+        btnFinalizar.classList.add('btn-finalizar')
+        btnFinalizar.textContent = 'Finalizar compra'
+        carrito.appendChild(btnFinalizar)
+
+
+
         const removeButtons = document.querySelectorAll('.remove-from-cart')
         removeButtons.forEach(button => {
             button.addEventListener('click', function () {
