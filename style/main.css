@@ -20,9 +20,7 @@ header {
     margin-bottom: 20px;
     color: rgba(219, 47, 16, 0.973);
     padding: 5px;
-     
-
-    
+       
 }
 
 .container {
@@ -148,6 +146,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #b3b2b1;
+    display: flex;
 }
 .footer-img {
     scale: 0.5;
