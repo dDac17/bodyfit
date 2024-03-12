@@ -126,14 +126,10 @@ nav ul {
     
 }
 
-span {
-    text-decoration: underline;
-
-}
 
 nav a {
     text-decoration: none;
-    color: rgba(219, 47, 16, 0.973);
+    color: white;
     padding: 5px;
     
 }
