@@ -90,7 +90,7 @@ p {
 textarea {
     margin-top: 10px;
     margin-left: 20px;
-
+    resize: vertical;
 }
 
 .check {
