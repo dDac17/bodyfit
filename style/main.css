@@ -33,6 +33,9 @@
 
 
 
+
+
+
 .main-2 {
     display: flex;
     width: 100%;
@@ -40,6 +43,7 @@
     padding-top: 65px;
     justify-content: space-evenly
 }
+
 
 
         .texto2 {
@@ -50,16 +54,15 @@
             background-color: white;
             box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1)
 
+      }
 
-}
-
-.imagen2 {
-    width: 500px;
-    height: 400px;
-    background-image: url(../assets/foto2.jpg);
-    background-size: cover;
-    border-radius: 10px;
-    animation: fadeIn 3s;
+      .imagen2 {
+            width: 500px;
+            height: 400px;
+            background-image: url(../assets/foto2.jpg);
+            background-size: cover;
+            border-radius: 10px;
+            animation: fadeIn 3s;
 }
 
 
