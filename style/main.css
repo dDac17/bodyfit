@@ -33,6 +33,7 @@
             background-image: url(../assets/foto1.jpeg);
             background-size: cover;
             border-radius: 10px;  
+            box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1)
         }
 
 
@@ -52,6 +53,7 @@
             margin-left: 80px;
             background-color: white;
             padding: 15px;
+            box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1)
 
         }
 
@@ -64,7 +66,6 @@
         }
 
 
-
 .main-3 {
     width: 70%;
     height: 300px;
@@ -73,7 +74,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 7px;
-    
     margin-bottom: 50px;
     padding-top: 15px;
     margin-left: 150px;
