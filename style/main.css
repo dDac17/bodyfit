@@ -29,6 +29,7 @@
     background-image: url(../assets/foto1.jpeg);
     background-size: cover;
     border-radius: 10px;
+    animation: fadeIn 3s;
 }
 
 
@@ -57,6 +58,7 @@
     background-image: url(../assets/foto2.jpg);
     background-size: cover;
     border-radius: 10px;
+    animation: fadeIn 3s;
 }
 
 
@@ -64,11 +66,9 @@
 .main-3 {
     width: 70%;
     height: 300px;
-   
     border-radius: 7px;
     display: flex;
     justify-content: center;
-
     padding-top: 15px;
     margin-left: 150px;
 
@@ -85,6 +85,20 @@
 }
 
 .cuadro {
- text-align: center;
-   
+    text-align: center;
+
+}
+
+.fade {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
