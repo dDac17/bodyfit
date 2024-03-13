@@ -28,6 +28,8 @@ body {
     background-position: center;
     margin-bottom: 30px;
     
+    
+    
 }
 
 #contacto {
@@ -83,13 +85,25 @@ p {
 .input {
     margin-top: 20px;
     margin-left: 20px;
+    font-family: 'Arial',
+            sans-serif;
+        color: gray;
 }
     
 
 textarea {
     margin-top: 10px;
     margin-left: 20px;
-    resize: vertical;
+
+    width: 300px;
+    height: 150px;
+    resize: none;
+    font-family: 'Arial',
+    sans-serif;
+    color: gray;
+
+
+
 }
 
 .check {
