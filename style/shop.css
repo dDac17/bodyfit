@@ -35,7 +35,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-/*
+
 .cart-footer {
     position: absolute;
     bottom: 0;
@@ -51,7 +51,6 @@ h2 {
 .cart-total {
     font-weight: bold;
 }
-*/
 
 .cards {
     display: flex;
