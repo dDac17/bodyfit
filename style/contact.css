@@ -119,3 +119,8 @@ button {
     
 }
 
+header {
+    background-image: url(../assets/header03.jpeg);
+    background-size: cover;
+    background-position: center;
+}
