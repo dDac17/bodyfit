@@ -38,8 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
        }
       })
 
-
-
         const removeButtons = document.querySelectorAll('.remove-from-cart')
         removeButtons.forEach(button => {
             button.addEventListener('click', function () {
