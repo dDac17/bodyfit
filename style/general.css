@@ -27,7 +27,6 @@ header {
 #logo img {
     max-height: 50px;
     display: flex;
-
 }
 
 
@@ -53,7 +52,7 @@ nav ul {
     margin: 0;
     position: absolute;
     top: 20px;
-    left:60%;
+    left: 70%;
 }
 
 nav li {
