@@ -19,7 +19,7 @@
             </div>
             <ul>
                 <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="../about-us/about-us.html">Sobre Nosotros</a></li>
+                <li> <a href="../about-us/about-us.html">Nosotros</a></li>
                 <li> <a href="../shop/shop.html">Tienda</a></li>
                 <li> <a href="../contact/contact.html">Contacto</a></li>
             </ul>
@@ -44,7 +44,7 @@
                 <div><img class="mapa" src="./Mapa-Contacto.png" alt="mapa" width="300 px" height="250px"></div>
             </div>
 
-            <form>
+            <form id="contactForm">
                 
             
                 <div id="formulario">   
@@ -70,14 +70,20 @@
                 <div><label for="user_contact"> Autorizo recibir información comercial por correo electrónico.</label></div>
                 </div>
                 
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
                 </div>
             </form>
 
 
          
     </div>
-
+<script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+                event.preventDefault()
+                alert('¡Mensaje enviado con éxito!')
+                window.location.href = '../index.html'
+            })
+</script>
    
 </body>
     <footer>
