@@ -9,7 +9,7 @@ body {
 
 header {
     height: 380px;
-    width: 100vw;
+    width: 100%;
     background-image: url(../assets/header.png);
     background-size: cover;
     background-position: center;
@@ -30,6 +30,7 @@ header {
 
 }
 
+
 .navbar {
     display: flex;
     align-items: center;
@@ -49,11 +50,14 @@ nav ul {
     align-items: center;
     justify-content: space-between;
     font-size: 15px;
-
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left:60%;
 }
 
 nav li {
-    width: 150px;
+    width: 126px;
     height: 50px;
     transition: background-position-x 0.9s linear;
     text-align: center;
