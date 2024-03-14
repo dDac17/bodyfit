@@ -197,3 +197,8 @@ span {
     margin-top: 10px;
 
 }
+header {
+    background-image: url(../assets/header04.jpg);
+    background-size: cover;
+    background-position: center;
+}
