@@ -19,7 +19,9 @@
             border: solid grey;
             text-align: justify;
             background-color: white;
-            box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1)
+            box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            
         }
 
         .imagen1 {
@@ -52,7 +54,8 @@
             border: solid grey;
             margin-left: 80px;
             background-color: white;
-            box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1)
+            box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1);
+            padding: 15px;
 
       }
 
